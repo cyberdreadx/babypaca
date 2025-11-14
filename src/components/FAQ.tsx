@@ -10,7 +10,7 @@ export const FAQ = () => {
     },
     {
       q: "What is the contract address?",
-      a: "The Baby Paca contract on Keeta L1 is: 0xC3F7c75a012f9dc7f0Cfed2Dfe6D88ec30f26C22"
+      a: "The Baby Paca contract on Keeta L1 is: keeta_aabiku5vlchcgsxqwj6o4sryvqucaywcb46advac425biaroqzhibaaj7mt6a6i"
     },
     {
       q: "Is there a team allocation?",

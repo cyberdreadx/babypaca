@@ -33,7 +33,7 @@ export const Hero = () => {
             Contract Address (Keeta L1)
           </div>
           <div className="text-xs text-muted-foreground break-all font-mono">
-            0xC3F7c75a012f9dc7f0Cfed2Dfe6D88ec30f26C22
+            keeta_aabiku5vlchcgsxqwj6o4sryvqucaywcb46advac425biaroqzhibaaj7mt6a6i
           </div>
         </div>
       </div>

@@ -25,19 +25,19 @@ export const HowToBuy = () => {
   ];
 
   return (
-    <section id="how-to-buy" className="mb-10">
-      <h2 className="text-2xl font-bold mb-2">How to Buy</h2>
-      <p className="text-sm text-muted-foreground mb-5">
-        Follow these steps to join the herd and get your Baby Paca tokens.
+    <section id="how-to-buy" className="mb-10 scroll-mt-20">
+      <h2 className="text-2xl sm:text-3xl font-bold mb-2">How to Buy 💸</h2>
+      <p className="text-sm sm:text-base text-muted-foreground mb-5">
+        4 easy steps to join the degen herd 🦙
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {steps.map((step, idx) => (
-          <Card key={idx} className="p-4 bg-card border-border/30">
-            <div className="text-xs uppercase tracking-wider text-accent mb-2">
+          <Card key={idx} className="p-5 bg-card border-border/30 hover:border-accent/50 transition-all">
+            <div className="text-xs sm:text-sm uppercase tracking-wider text-accent mb-2 font-bold">
               {step.number}
             </div>
-            <h3 className="text-base font-semibold mb-2">{step.title}</h3>
-            <p className="text-sm text-muted-foreground">{step.description}</p>
+            <h3 className="text-base sm:text-lg font-bold mb-3">{step.title}</h3>
+            <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">{step.description}</p>
           </Card>
         ))}
       </div>

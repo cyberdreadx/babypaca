@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 export const Tokenomics = () => {
   const items = [
     { title: "Total Supply 💰", value: "1,000,000,000", subtitle: "Fixed forever ♾️" },
-    { title: "Team Allocation 🔒", value: "10%", subtitle: "Locked & vested" },
+    { title: "Team Allocation 🔒", value: "10%", subtitle: "For the builders" },
     { title: "Market Supply 🦙", value: "90%", subtitle: "For the degens" },
     { title: "Chain ⛓️", value: "Keeta L1", subtitle: "No escape 😈" }
   ];

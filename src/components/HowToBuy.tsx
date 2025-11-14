@@ -19,8 +19,8 @@ export const HowToBuy = () => {
     },
     {
       number: "Step 4",
-      title: "Trade Baby Paca",
-      description: "Connect your wallet in the app and swap for $BABYPACA on Keeta L1."
+      title: "Trade $BPACA",
+      description: "Connect your wallet in the app and swap for $BPACA on Keeta L1."
     }
   ];
 

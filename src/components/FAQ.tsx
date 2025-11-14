@@ -1,20 +1,20 @@
 export const FAQ = () => {
   const faqs = [
     {
-      q: "What is Baby Paca?",
-      a: "Baby Paca is a meme token on Keeta L1 with a 1B max supply. It's a community-driven project focused on fun, memes, and building a strong herd."
+      q: "What is $BPACA?",
+      a: "$BPACA (Baby Paca) is a meme token on Keeta L1 with a 1B supply. It's a community-driven project focused on fun, memes, and building a strong herd."
     },
     {
-      q: "Where can I trade Baby Paca?",
-      a: "Currently, Baby Paca trades exclusively on the Alpaca DEX iOS app. You'll need to bridge assets from Base to Keeta L1 first."
+      q: "Where can I trade $BPACA?",
+      a: "Currently, $BPACA trades exclusively on the Alpaca DEX iOS app. You'll need to bridge assets from Base to Keeta L1 first."
     },
     {
       q: "What is the contract address?",
-      a: "The Baby Paca contract on Keeta L1 is: keeta_aabiku5vlchcgsxqwj6o4sryvqucaywcb46advac425biaroqzhibaaj7mt6a6i"
+      a: "The $BPACA contract on Keeta L1 is: keeta_aabiku5vlchcgsxqwj6o4sryvqucaywcb46advac425biaroqzhibaaj7mt6a6i"
     },
     {
       q: "Is there a team allocation?",
-      a: "Yes, 10% of the supply is allocated to the team, with the remaining 90% available for the market and community."
+      a: "Yes, 10% of the supply goes to the team for development and operations, with the remaining 90% available for the market and community."
     },
     {
       q: "How do I bridge to Keeta L1?",

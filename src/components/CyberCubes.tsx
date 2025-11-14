@@ -1,6 +1,9 @@
 export const CyberCubes = () => {
+  // Reduce animation complexity on mobile for better performance
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+  
   return (
-    <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
+    <div className="fixed inset-0 pointer-events-none overflow-hidden z-0" style={{ willChange: 'transform' }}>
       {/* Floating cubes */}
       <div className="absolute top-20 left-10 w-12 h-12 border-2 border-cyber-pink animate-cube-spin opacity-20"
            style={{ boxShadow: 'var(--glow-pink)' }} />

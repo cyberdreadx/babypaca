@@ -6,11 +6,11 @@ export const Hero = () => {
     <section className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center mb-12">
       <div className="lg:col-span-3">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4 tracking-tight leading-tight">
-          <span className="gradient-text">Baby Paca</span> 🦙✨<br />
+          <span className="gradient-text">$BPACA</span> 🦙✨<br />
           <span className="text-2xl sm:text-3xl md:text-4xl">The tiniest degen on Keeta 🚀</span>
         </h1>
         <p className="text-muted-foreground max-w-xl mb-6 text-base sm:text-lg leading-relaxed">
-          One herd, one chain. 1B max supply, 10% team, 90% for the degens. 
+          One herd, one chain. 1B supply, 10% team, 90% for the degens. 
           No rugs, just vibes 💎🙌
         </p>
         <p className="text-sm sm:text-base text-accent font-semibold mb-4 bg-card/50 p-3 rounded-lg border border-accent/30">

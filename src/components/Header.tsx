@@ -11,7 +11,7 @@ export const Header = () => {
           style={{ mixBlendMode: 'lighten' }}
         />
         <div className="font-bold text-base sm:text-lg">
-          Baby Paca <span className="text-secondary">on Keeta L1</span> 🦙
+          $BPACA <span className="text-secondary">on Keeta L1</span> 🦙
         </div>
       </div>
       <div className="rounded-full border border-accent/30 bg-card/50 px-4 py-2 text-xs sm:text-sm text-muted-foreground">

@@ -108,6 +108,11 @@ All colors MUST be HSL.
     @apply text-foreground;
     background: radial-gradient(circle at top, hsl(270 60% 18%) 0%, hsl(270 100% 2%) 55%);
     min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  * {
+    max-width: 100%;
   }
   
   .gradient-text {

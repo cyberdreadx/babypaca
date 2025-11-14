@@ -20,12 +20,12 @@ export const Roadmap = () => {
   ];
 
   return (
-    <section className="mb-10">
+    <section className="mb-10 w-full overflow-hidden">
       <h2 className="text-2xl sm:text-3xl font-bold mb-2">Roadmap 🗺️</h2>
       <p className="text-sm sm:text-base text-muted-foreground mb-5">
         From launch to moon mission - the Baby Paca journey 🌙
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full">
         {phases.map((phase, idx) => (
           <Card key={idx} className="p-5 bg-card border-border/30 hover:border-accent/50 transition-all">
             <div className="text-xs sm:text-sm uppercase tracking-wider text-accent mb-2 font-bold">

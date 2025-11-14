@@ -8,14 +8,16 @@ import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 sm:py-6 pb-16">
-      <Header />
-      <Hero />
-      <Tokenomics />
-      <HowToBuy />
-      <Roadmap />
-      <FAQ />
-      <Footer />
+    <div className="w-full overflow-x-hidden">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 sm:py-6 pb-16">
+        <Header />
+        <Hero />
+        <Tokenomics />
+        <HowToBuy />
+        <Roadmap />
+        <FAQ />
+        <Footer />
+      </div>
     </div>
   );
 };

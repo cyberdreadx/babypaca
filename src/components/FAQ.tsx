@@ -28,15 +28,15 @@ export const FAQ = () => {
 
   return (
     <section className="mb-10">
-      <h2 className="text-2xl font-bold mb-2">FAQ</h2>
-      <p className="text-sm text-muted-foreground mb-5">
-        Common questions about Baby Paca and how to get started.
+      <h2 className="text-2xl sm:text-3xl font-bold mb-2">FAQ 💬</h2>
+      <p className="text-sm sm:text-base text-muted-foreground mb-5">
+        Got questions? We got answers, anon 🧠
       </p>
-      <div className="space-y-4">
+      <div className="space-y-5">
         {faqs.map((faq, idx) => (
-          <div key={idx} className="border-b border-border/30 pb-4 last:border-0">
-            <h3 className="text-base font-semibold mb-1">{faq.q}</h3>
-            <p className="text-sm text-muted-foreground">{faq.a}</p>
+          <div key={idx} className="border-b border-border/30 pb-5 last:border-0">
+            <h3 className="text-base sm:text-lg font-bold mb-2">{faq.q}</h3>
+            <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">{faq.a}</p>
           </div>
         ))}
       </div>

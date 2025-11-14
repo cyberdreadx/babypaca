@@ -5,11 +5,13 @@ import { HowToBuy } from "@/components/HowToBuy";
 import { Roadmap } from "@/components/Roadmap";
 import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
+import { CyberCubes } from "@/components/CyberCubes";
 
 const Index = () => {
   return (
     <div className="w-full overflow-x-hidden">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 sm:py-6 pb-16">
+      <CyberCubes />
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 sm:py-6 pb-16 relative z-10">
         <Header />
         <Hero />
         <Tokenomics />

@@ -3,7 +3,7 @@ import babyPacaLogo from "@/assets/baby-paca-logo.png";
 
 export const Hero = () => {
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center mb-12">
+    <section className="w-full grid grid-cols-1 lg:grid-cols-5 gap-8 items-center mb-12 overflow-hidden">
       <div className="lg:col-span-3">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4 tracking-tight leading-tight">
           <span className="gradient-text">$BPACA</span> 🦙✨<br />
@@ -29,18 +29,18 @@ export const Hero = () => {
             </Button>
           </a>
         </div>
-        <div className="border border-dashed border-accent/50 rounded-xl p-4 max-w-xl bg-card/80 backdrop-blur-sm">
+        <div className="border border-dashed border-accent/50 rounded-xl p-4 w-full bg-card/80 backdrop-blur-sm">
           <div className="text-xs sm:text-sm uppercase tracking-wider text-accent font-bold mb-2">
             📋 Contract Address (Keeta L1)
           </div>
-          <div className="text-xs sm:text-sm text-foreground break-all font-mono bg-background/50 p-2 rounded">
+          <div className="text-xs sm:text-sm text-foreground break-all font-mono bg-background/50 p-2 rounded overflow-hidden">
             keeta_aabiku5vlchcgsxqwj6o4sryvqucaywcb46advac425biaroqzhibaaj7mt6a6i
           </div>
         </div>
       </div>
       
-      <div className="lg:col-span-2">
-        <div className="relative overflow-hidden rounded-3xl p-6 shadow-2xl" style={{
+      <div className="lg:col-span-2 w-full">
+        <div className="relative overflow-hidden rounded-3xl p-6 shadow-2xl w-full" style={{
           background: 'linear-gradient(135deg, hsl(270 50% 20%), hsl(270 60% 8%))',
           border: '1px solid rgba(255,255,255,0.08)'
         }}>

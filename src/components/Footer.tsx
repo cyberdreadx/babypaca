@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <footer className="border-t border-border/30 mt-6 pt-4 flex flex-wrap justify-between items-center gap-2 text-xs text-muted-foreground">
+    <footer className="w-full border-t border-border/30 mt-6 pt-4 flex flex-wrap justify-between items-center gap-2 text-xs text-muted-foreground overflow-hidden">
       <div>
         © 2025 Baby Paca · All rights reserved · This is a meme token for entertainment purposes.
       </div>

@@ -27,12 +27,12 @@ export const FAQ = () => {
   ];
 
   return (
-    <section className="mb-10">
+    <section className="mb-10 w-full overflow-hidden">
       <h2 className="text-2xl sm:text-3xl font-bold mb-2">FAQ 💬</h2>
       <p className="text-sm sm:text-base text-muted-foreground mb-5">
         Got questions? We got answers, anon 🧠
       </p>
-      <div className="space-y-5">
+      <div className="space-y-5 w-full">
         {faqs.map((faq, idx) => (
           <div key={idx} className="border-b border-border/30 pb-5 last:border-0">
             <h3 className="text-base sm:text-lg font-bold mb-2">{faq.q}</h3>
